@@ -19,9 +19,8 @@ const Hero = () => {
       });
   };
 
-  // Example: clicking the badge goes to the GitHub releases page
   const handleVersionClick = () => {
-    window.open("https://github.com/pancrate/release/releases/tag/v1.2.0", "_blank");
+    window.open("https://github.com/pancrate/release/releases/tag/v1.0.0", "_blank");
   };
 
   return (
@@ -34,7 +33,7 @@ const Hero = () => {
             className="inline-block px-3 py-1 rounded-full bg-terminal-dark border border-terminal-purple text-terminal-purple text-sm font-medium mb-6 transition hover:bg-terminal-purple/10 focus:outline-none focus:ring-2 focus:ring-terminal-purple"
             aria-label="View Pancrate v1.2.0 release"
           >
-            Pancrate v1.2.0
+            Pancrate v1.0.0
           </button>
 
           <h1 className="text-4xl md:text-6xl font-bold mb-6">
