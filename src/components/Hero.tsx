@@ -21,7 +21,7 @@ const Hero = () => {
 
   // Example: clicking the badge goes to the GitHub releases page
   const handleVersionClick = () => {
-    window.open("https://github.com/your-org/pancrate/releases/tag/v1.2.0", "_blank");
+    window.open("https://github.com/pancrate/release/releases/tag/v1.2.0", "_blank");
   };
 
   return (
